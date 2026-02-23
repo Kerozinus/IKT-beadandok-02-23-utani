@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dust & Spurs </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- NAV -->
+  <div class="topbar">
+    <div class="container">
+      <nav class="nav" aria-label="Fő navigáció">
+        <a class="brand" href="#home" data-link>
+          <!-- Logo: marhakoponya-->
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true">
+            <defs>
+              <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#f0c15a"/>
+                <stop offset="1" stop-color="#c9562a"/>
+              </linearGradient>
+            </defs>
+            <path d="M18 10c-4 0-8 4-8 9 0 5 3 9 7 9 2 0 4-1 6-3" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+            <path d="M46 10c4 0 8 4 8 9 0 5-3 9-7 9-2 0-4-1-6-3" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round"/>
+            <path d="M22 22c0-7 5-12 10-12s10 5 10 12c0 6-3 9-6 11v7c0 3-3 6-4 6s-4-3-4-6v-7c-3-2-6-5-6-11z"
+                  fill="rgba(242,230,200,.95)" stroke="rgba(0,0,0,.25)" stroke-width="2"/>
+            <circle cx="28.5" cy="24.5" r="3.2" fill="#1b120c"/>
+            <circle cx="35.5" cy="24.5" r="3.2" fill="#1b120c"/>
+            <path d="M32 28.5l-2 4h4z" fill="#1b120c"/>
+            <path d="M27 36c2 2 8 2 10 0" fill="none" stroke="rgba(0,0,0,.35)" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+
+          <div class="brand-text">
+            <div class="brand-name">Dust & Spurs</div>
+            <div class="brand-sub">Vadnyugat</div>
+          </div>
+        </a>
+
+        <div class="menu">
+          <a href="#tortenet" data-link class="active">Történet</a>
+          <a href="#elet" data-link>Élet</a>
+          <a href="#helyek" data-link>Helyek</a>
+          <a href="#galeria" data-link>Galéria</a>
+          <a href="#kapcsolat" data-link>Kapcsolat</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+  <header id="home">
+    <div class="container">
+      <div class="poster">
+        <!--  háttér -->
+        <svg class="poster-bg" viewBox="0 0 1200 720" role="img" aria-label="háttér">
+          <defs>
+            <filter id="grain">
+              <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+              <feColorMatrix type="matrix" values="
+                1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.10 0"/>
+            </filter>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#f1dfb9"/>
+              <stop offset="0.55" stop-color="#d9bf86"/>
+              <stop offset="1" stop-color="#caa56a"/>
+            </linearGradient>
+          </defs>
+
+          <rect width="1200" height="720" fill="url(#sky)"/>
+          <rect width="1200" height="720" filter="url(#grain)" opacity="0.7"/>
+
+          <path d="M0 260 C200 200, 430 240, 620 210 C820 180, 980 210, 1200 170 L1200 720 L0 720 Z"
+                fill="#e4cf9b" opacity="0.95"/>
+          <path d="M0 330 C220 280, 420 340, 610 300 C820 250, 980 290, 1200 240 L1200 720 L0 720 Z"
+                fill="#caa56a" opacity="0.98"/>
+          <path d="M0 430 C250 390, 420 460, 640 410 C850 360, 1010 410, 1200 350 L1200 720 L0 720 Z"
+                fill="#b4854f" opacity="0.98"/>
+          <path d="M0 520 C260 500, 480 560, 690 520 C910 480, 1040 530, 1200 500 L1200 720 L0 720 Z"
+                fill="#6b3f26" opacity="0.98"/>
+
+          <g fill="#1b120c" opacity="0.95">
+            <path d="M700 420c12 0 22 10 22 22v38c0 10-8 18-18 18h-8c-10 0-18-8-18-18v-38c0-12 10-22 22-22z"/>
+            <path d="M684 412c6-10 36-10 42 0l-6 10h-30z"/>
+            <rect x="690" y="496" width="10" height="60" rx="4"/>
+            <rect x="708" y="496" width="10" height="60" rx="4"/>
+
+            <path d="M780 438c10 0 18 8 18 18v26c0 10-8 18-18 18h-6c-10 0-18-8-18-18v-26c0-10 8-18 18-18z"/>
+            <path d="M766 430c5-8 26-8 32 0l-5 9h-22z"/>
+            <rect x="772" y="500" width="9" height="56" rx="4"/>
+            <rect x="788" y="500" width="9" height="56" rx="4"/>
+
+            <path d="M860 446c9 0 16 7 16 16v24c0 9-7 16-16 16h-6c-9 0-16-7-16-16v-24c0-9 7-16 16-16z"/>
+            <path d="M846 438c5-7 25-7 30 0l-5 8h-20z"/>
+            <rect x="852" y="504" width="9" height="52" rx="4"/>
+            <rect x="868" y="504" width="9" height="52" rx="4"/>
+          </g>
+
+          <g fill="#1b120c" opacity="0.9">
+            <path d="M1040 520c0-40 30-40 30 0v80h-30z"/>
+            <path d="M1010 540c0-26 20-26 20 0v40h-20z"/>
+            <path d="M1070 540c0-26 20-26 20 0v40h-20z"/>
+          </g>
+
+          <g>
+            <rect x="0" y="0" width="1200" height="90" fill="rgba(43,27,18,.55)"/>
+            <text x="80" y="58" fill="#1b120c" font-size="34" font-weight="900" letter-spacing="3">A VADNYUGAT</text>
+            <text x="80" y="80" fill="rgba(27,18,12,.75)" font-size="14" font-weight="700" letter-spacing="1.2">
+              por, törvény, legendák – egy korszak lenyomata
+            </text>
+          </g>
+        </svg>
+
+        <div class="hero-panel">
+          <div class="hero-title">Ahol a nap delel, ott dől el a párbaj.</div>
+          <p class="hero-sub">
+            A vadnyugat nem csak filmekből áll: telepesek, vasút, aranyláz, seriffek, banditák és a
+            határvidék kemény hétköznapjai formálták a legendát.
+          </p>
+
+          <div class="hero-grid">
+            <div class="mini-card">
+              <h4>Rövid sztori</h4>
+              <p>
+                A 19. század közepén a terjeszkedés és a vasút nyomán gyorsan nőttek a városok.
+                A törvény gyakran késve érkezett – ezért lett mítosz a „frontier”.
+              </p>
+            </div>
+            <div class="mini-card">
+              <h4>Mit találsz itt?</h4>
+              <p>
+                Történeti áttekintés, cowboy élet, tipikus helyszínek és egy kis „poszter-galéria”,
+                mind egy oldalon, western hangulatban.
+              </p>
+            </div>
+          </div>
+
+          <div class="cta">
+            <a class="btn primary" href="#tortenet" data-link>Olvasom a történetet</a>
+            <a class="btn" href="#galeria" data-link>Képek / galéria</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="tortenet">
+      <div class="section-head">
+        <h2>Történet</h2>
+        
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Terjeszkedés</h3>
+          <p>Telepesek indultak nyugat felé. Új utak, farmok, erődök és megélhetés a határvidéken.</p>
+          <span class="tag">Frontier</span>
+        </div>
+        <div class="card">
+          <h3>Vasút</h3>
+          <p>A vasút összekötötte a régiókat: árut, hírt és embereket hozott – néha konfliktust is.</p>
+         
+          <span class="tag">Railroad</span>
+        </div>
+        <div class="card">
+          <h3>Aranyláz</h3>
+          <p>Gyors gazdagodás reménye, rögtönzött városok, szerencsevadászok és nagy kockázat.</p>
+          
+          <span class="tag">Gold Rush</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="elet">
+      <div class="section-head">
+        <h2>Élet a határvidéken</h2>
+        <p>A cowboyok mindennapi munkája és a városi élet színes, gyakran kemény valósága.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Cowboy</h3>
+          <p>Marhaterelés, javítás, őrzés. Praktikus ruházat: csizma, kalap, lasszó.</p>
+          <span class="tag">Ranch</span>
+        </div>
+        <div class="card">
+          <h3>Seriff</h3>
+          <p>Rendfenntartás, körözések, letartóztatás. A törvény sokszor emberhiányos volt.</p>
+          <span class="tag">Law</span>
+        </div>
+        <div class="card">
+          <h3>Saloon</h3>
+          <p>Találkozóhely, üzlet, zene, pletyka – néha balhé. A város szíve.</p>
+          <span class="tag">Town</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="helyek">
+      <div class="section-head">
+        <h2>Tipikus helyszínek</h2>
+        <p>Főutca, bank, kovács, posta, állomás – pár épület, mégis teljes világ.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Főutca</h3>
+          <p>Deszkapalló, cégér, fagerendás homlokzat – minden szem előtt zajlik.</p>
+          <span class="tag">Main Street</span>
+        </div>
+        <div class="card">
+          <h3>Bank</h3>
+          <p>Arany és készpénz – ezért lett a bank a történetek egyik leggyakoribb célpontja.</p>
+          <span class="tag">Heist</span>
+        </div>
+        <div class="card">
+          <h3>Állomás</h3>
+          <p>A vasút hozta a híreket, az árut és az új embereket. A tempó felgyorsult.</p>
+          <span class="tag">Station</span>
+        </div>
+      </div>
+    </section>
+
+  <section id="galeria">
+  <div class="section-head">
+    <h2>Galéria</h2>
+  </div>
+
+  <div class="gallery">
+   
+    <figure class="gallery-item">
+      <img src="kepek/tf.jpg" alt="High Noon – vadnyugati jelenet">
+      <figcaption>HIGH NOON</figcaption>
+    </figure>
+
+
+    <figure class="gallery-item">
+      <img src="kepek/sivatag.avif" alt="The Desert – sivatagi táj">
+      <figcaption>THE DESERT</figcaption>
+    </figure>
+
+    
+    <figure class="gallery-item">
+      <img src="kepek/város.jpg" alt="Old Town – vadnyugati város">
+      <figcaption>OLD TOWN</figcaption>
+    </figure>
+  </div>
+</section>
+
+
+    <section id="kapcsolat">
+      <div class="section-head">
+        <h2>Kapcsolat</h2>
+      </div>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>Elérhetőség</h3>
+          <p><strong>Hely:</strong> Poros főutca 12., Old Town</p>
+          <p><strong>Távíró:</strong> +36 30 123 4567</p>
+          <p><strong>Posta:</strong> hello@dustandspurs.hu</p>
+          <span class="tag">Minta adatok</span>
+        </div>
+
+        <div class="card">
+          <h3>Üzenet</h3>
+          <form id="contactForm">
+            <label>
+              Név
+              <input name="name" required placeholder="Pl.: Kovács Vencel" />
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" required placeholder="pl.: te@email.hu" />
+            </label>
+            <label>
+              Üzenet
+              <textarea name="message" required placeholder="Mit üzensz a seriffnek?"></textarea>
+            </label>
+            <button class="btn primary" type="submit">Küldés</button>
+            <div id="formMsg" class="formMsg"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Dust & Spurs </div>
+    <script src="app.js"></script>
+  </footer>
+
+ 
+</body>
+</html>
