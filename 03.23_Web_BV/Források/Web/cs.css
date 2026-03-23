@@ -1,0 +1,12 @@
+.csapat {
+  vertical-align: middle;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+}
+body {
+  background-color: white;
+}
+hr{
+  color: red;
+}
