@@ -1,0 +1,74 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
+html{
+    scroll-behavior: smooth;
+}
+img {
+    width: 600px;
+}
+body{
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    background-color: #222222;
+}
+.feher{
+    background-color: #00AEEF;
+    color: #B3B3B3;
+}
+.fekete{
+    background-color: #6e5483;
+    color: #808080;
+}
+nav{
+    background-color: #6e5483;
+    color: #808080;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+a{
+    font-style: normal;
+    text-decoration: none;
+    transition: background-color 0.5s,color 0.5s,border-radius 0.5s;
+    color: #0077B6;
+    border-radius: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:hover{
+    background-color: #00AEEF;
+    color: #3B2F2F;
+    transition: background-color 0.5s,color 0.5s,border-radius 0.5s;
+    border-radius: 20px; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div{
+    border-radius: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+img{
+    border-radius: 20px;
+}
+div img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.feher > a{
+    transition: background-color 0.5s,color 0.5s;
+    color: gray;
+    border-radius: 10px;
+}
+.feher > a:hover{
+    transition: background-color 0.5s,color 0.5s;
+    color: rgb(41, 26, 26);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
