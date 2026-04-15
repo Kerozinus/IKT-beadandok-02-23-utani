@@ -1,0 +1,5 @@
+A játékot 2×45 percig játsszák, ezeket nevezik félidőknek. A nem játékkal töltött időt (például sérülés, csere) a bírók a félidők végén hosszabbítás formájában beszámítják.
+
+A játék célja a gól, vagyis a labdának az ellenfél kapujába való juttatása. A gól akkor szabályos, ha a labda teljes terjedelmével átjutott a gólvonalon. Az a csapat nyeri a mérkőzést, aki a játékidő alatt több gólt ér el. Ha a két csapat góljainak száma megegyezik akkor a meccs döntetlen.
+
+Mindkét csapatban 11 játékos van egy időben a pályán (amennyiben nincs kiállítás), de lehetőség van a cserére. Hivatalos mérkőzéseken ötöt lehet cserélni, három játékmegszakítás alkalmával, amibe nem kell beleszámolni a félidőt. Hosszabbítás esetén újabb egy cserelehetőség van. Barátságos meccseken a két csapat a játékvezetővel egyetértésben megegyezhet a cserelehetőségek számában. Az a játékos, akit edzője lecserélt, már nem térhet vissza a pályára az adott meccsen (kivétel az edzőmérkőzés). A cserének ott kell elhagynia a pályát ami hozzá a legközelebb van.
